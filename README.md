@@ -1,5 +1,5 @@
 # Product Landing Page:
-Built a product landing webpage for indie game developer.
+Built a responsive product landing webpage for indie game developer.
 
 # Technologies Used:
 HTML, CSS, and Flexbox
