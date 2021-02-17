@@ -1,4 +1,4 @@
-# Product Landing Page:
+# Product Landing Webpage:
 Built a responsive product landing webpage for indie game developer.
 
 # Technologies Used:
