@@ -1,0 +1,186 @@
+<html lang="en">
+
+<head>
+  <title>Product Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+  <style>
+    html {
+      background-color: White;
+    }
+
+    #empty-box {
+      height: 135px;
+      width: 100%;
+    }
+
+    #header {
+      display: flex;
+      justify-content: space-between;
+      background-color: Honeydew;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+    }
+
+    @media(max-width: 600px) {
+      #header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #empty-box {
+        height: 220px;
+        width: 100%
+      }
+    }
+
+    #nav-bar {
+      display: flex;
+      width: 65%;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: Black;
+      font-size: 16px;
+      font-family: 'PT Sans Caption', sans-serif;
+    }
+
+    #form-n-pitch {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 100px auto auto auto;
+    }
+
+    #pitch {
+      font-family: 'PT Sans Caption', sans-serif;
+    }
+
+    #email {
+      height: 24px;
+      width: 240px;
+    }
+
+    #submit {
+      display: block;
+      margin: 10px auto 60px auto;
+      height: 30px;
+      width: 150px;
+      font-size: 15px;
+      font-weight: bold;
+      background-color: #ffd01b;
+      border: none;
+    }
+
+    #feature-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'PT Sans Caption', sans-serif;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .card {
+      border: 3px solid AliceBlue;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.30), 8px 8px 8px rgba(0, 0, 0, 0.40);
+      margin: auto auto 60px auto;
+    }
+
+    #video-div {
+      margin: 100px auto 100px auto;
+    }
+
+    #progress-h1 {
+      font-family: 'PT Sans Caption', sans-serif;
+      text-align: center;
+      margin: auto auto 40px auto;
+    }
+
+    #video-div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #video {
+      display: block;
+      margin: auto;
+    }
+
+    @media(max-width: 660px) {
+      iframe {
+        width: 320px;
+        height: 180px;
+      }
+    }
+
+    #download-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'PT Sans Caption', sans-serif;
+    }
+
+    #footer-div {
+      background-color: LightGray;
+      opacity: 0.8;
+      text-align: right;
+      font-family: 'PT Sans Caption', sans-serif;
+      font-size: 12px;
+      height: 40px;
+      width: 100%;
+    }
+
+    strong {
+      font-size: 22px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="empty-box"></div>
+  <header id="header">
+    <img id="header-img" src="https://raw.githubusercontent.com/MA86/ProductLandingPage/main/logo.png" width="170" height="170"></img>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#form-n-pitch">Games In Development</a>
+      <a class="nav-link" href="#progress-h1">Follow Our Progress</a>
+      <a class="nav-link" href="#video-div">Download For Free</a>
+    </nav>
+  </header>
+  <div id="form-n-pitch">
+    <h1 id="pitch">Games made by gamers, for gamers</h1>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="Enter your email address"><br>
+      <input id="submit" type="submit" name="submit" value="GET STARTED">
+    </form>
+  </div>
+  <div id="feature-div">
+    <p>In <strong id="bold-za">Project Zombie Apocalypse</strong>, you step out of your ordinary workplace and step into a world of nightmare.</p>
+    <img id="screenshot-1" class="card" width="800" height="600" alt="Zombie game image" src="https://raw.githubusercontent.com/MA86/ProductLandingPage/main/screenshot_1_resized.png">
+    <p>Customize your tank and plan your strategy carefully before battle in this game codenamed <strong id="bold-tc">Project Tank Commander</strong>.</p>
+    <img id="screenshot-2" class="card" width="800" height="600" alt="Tank game image" src="https://raw.githubusercontent.com/MA86/ProductLandingPage/main/screenshot_3_resized.png">
+    <div id="video-div">
+      <h1 id="progress-h1">Follow our development progress on our <a href="https://github.com/MA86">GitHub</a> and <a href="https://vimeo.com/392856546">Vimeo</a></h1>
+      <iframe id="video" src="https://player.vimeo.com/video/392856546" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="download-div">
+      <h1>Downlaod and play our games for free</h1>
+      <img id="coming-soon" height="400" width="400" alt="Coming soon!" src="https://image.freepik.com/free-vector/red-grunge-style-coming-soon-design_1017-26691.jpg">
+    </div>
+    <div id="footer-div">
+      <p>Copyright 2021, Humble Games Studio</p>
+    </div>
+</body>
+
+</html>
