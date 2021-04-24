@@ -1,10 +1,13 @@
-# Product Landing Webpage:
+# Product Landing Webpage
+
 Built a responsive product landing webpage for indie game developer.
 
-# Technologies Used:
+## Technologies Used
+
 HTML, CSS, and Flexbox
 
-# Demonstration:
+## Demonstration
+
 To see this product landing webpage in action, click on this [link](https://ma86.github.io/ProductLandingPage/).
 
 Here is a screenshot in case the link above doesn't work:
